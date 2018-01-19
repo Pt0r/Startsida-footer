@@ -1,0 +1,19 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.footerTest2 {
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-sm4;
+    @include ms-md4;
+    @include ms-lg4;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+  }
+}

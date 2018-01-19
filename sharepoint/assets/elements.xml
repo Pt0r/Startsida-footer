@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+<Field ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}"
+        Name="SupportEmail"
+        DisplayName="Support Email"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns" />
+
+<Field ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}"
+        Name="SkypeLink"
+        DisplayName="Skype länk"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns">
+</Field>
+<Field ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB19}"
+        Name="ServicePortalLink"
+        DisplayName="Service portal länk"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns">
+</Field>
+<Field ID="{943E7530-5E2B-4D0C-8259-CCD93A9ECB19}"
+        Name="SupportNumber"
+        DisplayName="Support tel nr"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns">
+</Field>
+
+<ContentType ID="0x010042D0C1C200A14B6887742B6344675C8B" 
+        Name="InfoList fields" 
+        Group="SPFx Content Types" 
+        Description="Sample content types from web part solution">
+    <FieldRefs>
+        <FieldRef ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}" /> 
+        <FieldRef ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}" />
+        <FieldRef ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB19}" />
+        <FieldRef ID="{943E7530-5E2B-4D0C-8259-CCD93A9ECB19}" />
+    </FieldRefs>
+</ContentType> 
+
+<ListInstance 
+        CustomSchema="schema.xml"
+        FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+        Title="InfoList" 
+        Description="list för sidfotinfo"
+        TemplateType="100"
+        Url="Lists/SPFxList">
+        <Data>
+            <Rows>
+                <Row>
+                <Field Name="Title">Support för personal</Field>
+                <Field Name="SupportEmail">Support@stockholm.se</Field>
+                <Field Name="SkypeLink">www.skype.com</Field>
+                <Field Name="ServicePortalLink">www.google.com</Field>
+                <Field Name="SupportNumber">1234567890</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Support för elever</Field>
+                <Field Name="SupportEmail">support@stockholm.se</Field>
+                <Field Name="SkypeLink">www.skype.com</Field>
+                <Field Name="ServicePortalLink">www.google.com</Field>
+                <Field Name="SupportNumber">1234567890</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Support för vårdnashavare</Field>
+                <Field Name="SupportEmail">support@stockholm.se</Field>
+                <Field Name="SkypeLink">www.skype.com</Field>
+                <Field Name="ServicePortalLink">www.googl.com</Field>
+                <Field Name="SupportNumber">1234567890</Field>
+                </Row>
+            </Rows>
+        </Data>
+</ListInstance>
+
+</Elements>
