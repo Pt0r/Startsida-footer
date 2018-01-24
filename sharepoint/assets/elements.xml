@@ -52,25 +52,25 @@
         <Data>
             <Rows>
                 <Row>
-                <Field Name="Title">Support för personal</Field>
-                <Field Name="SupportEmail">Support@stockholm.se</Field>
-                <Field Name="SkypeLink">www.skype.com</Field>
-                <Field Name="ServicePortalLink">www.google.com</Field>
-                <Field Name="SupportNumber">1234567890</Field>
+                <Field Name="Title">Support för medarbetare</Field>
+                <Field Name="SupportEmail">arende@servicecentrum.stockholm.se</Field>
+                <Field Name="SkypeLink">servicecentrum@tieto.com</Field>
+                <Field Name="ServicePortalLink">https://servicecentrum.stockholm.se/sc/</Field>
+                <Field Name="SupportNumber">020-838300</Field>
                 </Row>
                 <Row>
                 <Field Name="Title">Support för elever</Field>
-                <Field Name="SupportEmail">support@stockholm.se</Field>
-                <Field Name="SkypeLink">www.skype.com</Field>
-                <Field Name="ServicePortalLink">www.google.com</Field>
-                <Field Name="SupportNumber">1234567890</Field>
+                <Field Name="SupportEmail">noinfo@stockholm.se</Field>
+                <Field Name="SkypeLink">https://noinfo.noinfo.com</Field>
+                <Field Name="ServicePortalLink">https://noinfo.stockholm.se</Field>
+                <Field Name="SupportNumber">000-000000</Field>
                 </Row>
                 <Row>
                 <Field Name="Title">Support för vårdnashavare</Field>
-                <Field Name="SupportEmail">support@stockholm.se</Field>
-                <Field Name="SkypeLink">www.skype.com</Field>
-                <Field Name="ServicePortalLink">www.googl.com</Field>
-                <Field Name="SupportNumber">1234567890</Field>
+                <Field Name="SupportEmail">noinfo@stockholm.se</Field>
+                <Field Name="SkypeLink">https://noinfo.noinfo.com</Field>
+                <Field Name="ServicePortalLink">https://noinfo.stockholm.se</Field>
+                <Field Name="SupportNumber">000-000000</Field>
                 </Row>
             </Rows>
         </Data>
