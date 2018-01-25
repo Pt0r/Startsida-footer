@@ -3,22 +3,8 @@
   "solution": {
     "name": "footer-test-list-client-side-solution",
     "id": "59575478-c43a-45fd-a918-e60163095d15",
-    "version": "4.0.1.0",
-    "includeClientSideAssets": true,
-    "features": [{
-      "title": "footer-test-list-client-side-solution",
-      "description": "footer-test-list-client-side-solution",
-      "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",
-      "version": "1.0.0.0",
-      "assets": {
-        "elementManifests": [
-          "elements.xml"
-        ],
-        "elementFiles":[
-          "schema.xml"
-        ]
-      }
-    }]
+    "version": "4.5.0.0",
+    "includeClientSideAssets": true
   },
   "paths": {
     "zippedPackage": "solution/footer-test-list.sppkg"

@@ -15,7 +15,7 @@ export default class SupportColumn extends React.Component<IColumnProps> {
                   <h2 className={ styles.title }> {this.props.title} </h2>
                   <p><Icon iconName='Phone'/> Ring: <a href={"tel:" + this.props.tel}>{this.props.tel}</a></p>                  
                   <p><Icon iconName='Mail'/> Maila: <a href={"mailto:" + this.props.email}>{this.props.email}</a></p>
-                  <p><Icon iconName='SkypeForBusinessLogo16'/> Chatta via <a href={this.props.skypelink} target="_blank">Skype</a></p>
+                  <p><Icon iconName='SkypeForBusinessLogo16'/> Chatta via <a href={"sip:" + this.props.skypelink} target="_blank">Skype</a></p>
                   <p><Icon iconName='TaskManager'/><a href= {this.props.supportlink} target="_blank"> Följ ditt ärende</a></p>
                 </div>
       );
