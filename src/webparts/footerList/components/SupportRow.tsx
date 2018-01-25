@@ -12,7 +12,7 @@ export default class SupportRow extends React.Component<IRowProps> {
 
     public render (){
 
-        if(this.props.userType == "utb")
+        if(this.props.userType == "m36")
         { 
             return(
                 <div className="ms-Grid-row">
