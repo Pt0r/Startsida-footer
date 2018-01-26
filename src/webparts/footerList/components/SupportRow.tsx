@@ -12,7 +12,7 @@ export default class SupportRow extends React.Component<IRowProps> {
 
     public render (){
 
-        if(this.props.userType == "m36")
+        if(this.props.userType == "die")
         { 
             return(
                 <div className="ms-Grid-row">
@@ -45,7 +45,7 @@ export default class SupportRow extends React.Component<IRowProps> {
                 </div>
             );
         }
-        else if(this.props.userType == "ele")
+        else if(this.props.userType == "joh")
         {
             return(
                 <div className="ms-Grid-row">

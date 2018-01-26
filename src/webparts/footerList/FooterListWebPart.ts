@@ -53,7 +53,7 @@ export default class FooterListWebPart extends BaseClientSideWebPart<"hej"> {
         console.log(u); 
         let userEmail = u.Email;
         let splitEmail = userEmail.split("@");
-        let emailPart = splitEmail[1].substring(0, 3).toLowerCase();
+        let emailPart = splitEmail[0].substring(0, 3).toLowerCase();
         return emailPart;
       });
   }
